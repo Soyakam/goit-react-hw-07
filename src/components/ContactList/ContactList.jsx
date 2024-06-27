@@ -14,7 +14,7 @@ const ContactList = () => {
           <li key={contact.id} className={css.contactItem}>
             <Contact
               name={contact.name}
-              number={contact.Number}
+              number={contact.number}
               id={contact.id}
               
             />
